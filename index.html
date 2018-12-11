@@ -9,12 +9,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+    
 <body>
-    <div class="container topcenter">
+  
+  //<!-- jumbotron bootstrap to show the first part intro to the game page-!>//
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to Word Guess</h1>
+    <h2 class="display-4">MCU Edition!</h2>
+    <p class="lead">To start playing press any key to guess the letters within the word choosen.</p>
+    <hr class="my-4">
+    <p>What are the rules?!
+      Display the word hidden by guessing all the letters before guesses ran out.
+      Good Luck!</p>
+   </div>
+   
+   <div class="container topcenter">
         <div class="row-2">
             <div class="col"></div>
                 <div class="col-9">
-                  <h1>Welcome to Word Guess: MCU Edition!</h1>
+                  <h2>MCU Edition!</h2>
                 </div>
             <div class="col"></div>
         </div>
@@ -36,6 +49,21 @@
         </div>
     </div>
 
+//<!-- bootstrap code for alert when game won by user is triggered-!>//
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!  You are a winner</h4>
+  <p>Continue with play by pressing spacebar</p>
+  <hr>
+  //*-- <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>--*//
+</div>
+
+//<!-- bootstrap code for alert when user has keyed incorrect letter-!>//
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>Oops!</strong> Not that one, key in another letter.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 
     <script src="/assets/javascript/game.js"></script>
 </body>
