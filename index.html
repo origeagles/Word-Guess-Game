@@ -15,14 +15,14 @@
 <body>
 
   
-  //<!-- jumbotron bootstrap to show the first part intro to the game page-!>//
+  <!-- jumbotron bootstrap to show the first part intro to the game page-->
   <div class="jumbotron">
     <h1 class="display-4">Welcome to Word Guess</h1>
     <h2 class="display-4">MCU Edition!</h2>
     <p class="lead">To start playing press any key.</p>
     <hr class="my-4">
-    <p>What are the rules?!
-      Themed word will be displayed without the letters.  You need to guess the letters to display the word.  Once revealed prior to the guesses running out, you are a winner!  Otherwise you have been consumed with the MCU.
+    <p>What are the rules?!</p>
+    <p>Themed word will be displayed without the letters.  You need to guess the letters to display the word.  Once revealed prior to the guesses running out, you are a winner!  Otherwise you have been consumed with the MCU.
       Good Luck!</p>
    </div>
    
@@ -45,24 +45,24 @@
         </div>
     </div>
 
-//<!-- bootstrap code for alert when game won by user is triggered-!>//
+<!-- bootstrap code for alert when game won by user is triggered-->
 <div class="alert alert-success" role="alert">
-  <h4 class="alert-heading">Well done!  You are a winner</h4>
+  <h4 class="alert-heading">Well done!  You are a winner.</h4>
   <p>Continue with play by pressing spacebar</p>
   <hr>
-  //*-- <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>--*//
+  <!-- <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>-->
 </div>
 
-//<!-- bootstrap code for alert when user has keyed incorrect letter-!>//
-<div class="alert alert-danger alert-dismissible fade show" role="alert">
+<!-- bootstrap code for alert when user has keyed incorrect letter-->
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
   <strong>Oops!</strong> Not that one, key in another letter.
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
 
-//<!-- bootstrap code for alert when user has lost-!>//
-<div class="alert alert-warning" role="alert">
+<!-- bootstrap code for alert when user has lost-->
+<div class="alert alert-danger" role="alert">
   <h4 class="alert-heading">End Game!  Better luck next time.</h4>
   <p>Continue with play by pressing spacebar</p>
   <hr>
