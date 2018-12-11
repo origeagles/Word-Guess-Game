@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(antiquewhite, bisque);
+}
+
+h1 {
+    text-align: center;
+    color: sandybrown;
+    font-family: 'Slackey', cursive;
+    font-size: auto;
+    padding: 25px;
+}
+
+.leftbottom {
+    background-image: url(../images/wordguessbackgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    background-position: left;
+}
+
+.rightbottom {
+    background-image: url(../images/wordguessbackground2image.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    background-position: right;
+}
