@@ -10,16 +10,17 @@ h1 {
     padding: 25px;
 }
 
-.leftbottom {
+/* .leftbottom {
 /*     background-image: url(../images/wordguessbackgroundimage.jpg); */
-    background-repeat: no-repeat;
-    background-size: 300px 200px;
-    background-position: left;
-}
+/*     background-repeat: no-repeat;*/
+/*    background-size: 300px 200px;*/
+/*     background-position: left;*/
+/*}*/
 
-.rightbottom {
+/*.rightbottom {*/
 /*     background-image: url(../images/wordguessbackground2image.jpg); */
-    background-repeat: no-repeat;
-    background-size: 300px 100px;
-    background-position: right;
-}
+/*     background-repeat: no-repeat;*/
+/*     background-size: 300px 100px;*/
+/*     background-position: right;*/
+/* } */
+
