@@ -2,6 +2,7 @@
 var keyWords = ["stark", "banner", "thor", "rodgers", "groot", "parker", "vision", "fury", "avengers", "marvel", "barton", "romanoff", "barnes", "loki", "quill", "gamora", "rocket", "drax", "groot", "wanda", "ultron", "thanos", "lang", "hope", "strange", "tchalla"];
 
 //variables
+var wordLength
 var wins = 0
 var losses = 0
 var guesses = 7
@@ -14,7 +15,7 @@ var wordChosen = keyWords[Math.floor(Math.random() * keyWords.length-1)];
 document.onkeypress = function(event) {
     console.log(userGuess = event.key);
     document.textContent = wordChosen;
-    var wordLength document.txtlength = wordChosen;
+    document.txtlength(wordChosen) = wordLength;
     for (var i = 0; i < wordLength; i++) {
     console.log(document.textContent = "_");
     }       
