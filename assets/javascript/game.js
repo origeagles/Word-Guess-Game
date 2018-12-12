@@ -15,7 +15,7 @@ var wordChosen = keyWords[Math.floor(Math.random() * keyWords.length-1)];
 
 // This function logs when the user presses a letter//
 document.onkeypress = function(event) {
-    console.log(userGuess = event.key);
+    console.log(document.userGuess = event.key);
     document.textContent = wordChosen;
     console.log(document.stringlength(wordChosen) = wordLength);
     for (var i = 0; i < wordLength; i++) {
