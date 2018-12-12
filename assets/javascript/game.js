@@ -15,7 +15,7 @@ document.onkeypress = function(event) {
     console.log(userGuess = event.key);
     document.textContent = wordChosen;
     document.txtlength = wordChosenInvisible;
-    for (var 1 = 0; i < wordChosenInvisible; i++) {
+    for (var i = 0; i < wordChosenInvisible; i++) {
     console.log(document.textContent = "_");
     }
         
