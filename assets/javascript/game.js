@@ -17,14 +17,15 @@ var wordChosen = keyWords[Math.floor(Math.random() * keyWords.length-1)];
 document.onkeypress = function(event) {
     console.log(document.userGuess = event.key);
     document.textContent = wordChosen;
+    
+//This function splits and wordChosen and the replaces it with an "_"    
     console.log(document.stringlength(wordChosen) = wordLength);
     for (var i = 0; i < wordLength; i++) {
-    document.stringlength = "_";
     }       
 }
 
 // condition to match the letter typed to any of the letters of the random word
-var splitword = wordChosen.split(" ");
+var splitword = wordChosen.split("_");
 console.log(splitword);
 
 
