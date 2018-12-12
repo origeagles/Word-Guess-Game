@@ -1,5 +1,5 @@
 // Table array for word guesses//
-var keyWords = ["stark", "banner", "thor", "rodgers", "groot", "parker", "vision", "fury", "avengers", "marvel", "barton", "romanoff", "barnes", "loki", "quill", "gamora", "rocket", "drax", "groot", "wanda", "ultron", "thanos", "lang", "hope", "strange", "tchalla"];
+var keyWords = ["stark", "banner", "thor", "rodgers", "groot", "parker", "vision", "fury", "avengers", "marvel", "barton", "romanoff", "barnes", "loki", "quill", "gamora", "rocket", "drax", "wanda", "ultron", "thanos", "lang", "hope", "strange", "tchalla"];
 
 //variables
 var wordLength
