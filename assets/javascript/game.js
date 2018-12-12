@@ -14,8 +14,8 @@ var wordChosen = keyWords[Math.floor(Math.random() * keyWords.length-1)];
 document.onkeypress = function(event) {
     console.log(userGuess = event.key);
     document.textContent = wordChosen;
-    document.txtlength = wordChosenInvisible;
-    for (var i = 0; i < wordChosenInvisible; i++) {
+    var wordLength document.txtlength = wordChosen;
+    for (var i = 0; i < wordLength; i++) {
     console.log(document.textContent = "_");
     }       
 }
