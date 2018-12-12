@@ -17,6 +17,11 @@ document.onkeypress = function(event) {
     document.txtlength = wordChosenInvisible;
     for (var i = 0; i < wordChosenInvisible; i++) {
     console.log(document.textContent = "_");
-    }
-        
+    }       
 }
+
+// condition to match the letter typed to any of the letters of the random word
+var splitword = wordChosen.split(" ");
+console.log(splitword);
+
+
