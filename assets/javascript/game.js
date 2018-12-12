@@ -3,10 +3,11 @@ var keyWords = ["stark", "banner", "thor", "rodgers", "groot", "parker", "vision
 
 // function chooses random work for the game from the table.//
 var wordChosen = keyWords[Math.floor(Math.random() * keyWords.length-1)];
-    console.log(wordChosen)
+    console.log(wordChosen);
 
 // This function logs when the user presses a letter//
 document.onkeypress = function(event) {
     console.log(userGuess = event.key);
+    document.textContent = wordChosen;
 
 }
