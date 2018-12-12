@@ -19,7 +19,7 @@ document.onkeypress = function(event) {
     document.textContent = wordChosen;
     console.log(document.stringlength(wordChosen) = wordLength);
     for (var i = 0; i < wordLength; i++) {
-    console.log(document.textContent = "_");
+    document.stringlength = "_";
     }       
 }
 
