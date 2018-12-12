@@ -10,7 +10,7 @@ var guesses = 7
 // function chooses random work for the game from the table.//
 var wordChosen = keyWords[Math.floor(Math.random() * keyWords.length-1)];
     console.log(wordChosen);
-    console.log([25]);
+    console.log(keyWords[25]);
 
 // This function logs when the user presses a letter//
 document.onkeypress = function(event) {
