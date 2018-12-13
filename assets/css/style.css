@@ -1,14 +1,65 @@
-html, body {
+body {
     background-image: linear-gradient(antiquewhite, bisque);
+    background-color:red;
+    margin: 10px;
+    padding: 15px;
+    line-height: 5;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    font-family: 'Acme';
+}
+
+#jumboHeader {
+    max-height: 200px;
+    min-height: 300px;
+    
 }
 
 h1 {
     text-align: center;
     color: sandybrown;
     font-family: 'Slackey', cursive;
-    font-size: auto;
-    padding: 25px;
+    font-size: 20%;
+    padding: 20px;
 }
+
+h2, h3, h4 {
+    text-align: center;
+    font-family: 'Marvel:700';
+    font-size: 15px;
+    font-color: darkbrown;
+}
+
+<!-- bootstrap code for alert when game won by user is triggered-->
+<div class="alert alert-success messageWin" role="alert">
+  <h4 class="alert-heading">Well done!  You are a winner.</h4>
+  <p></p>
+  <hr>
+  <p class="mb-0">Continue with play by pressing spacebar</p>
+</div>
+
+<!-- bootstrap code for alert when user has keyed incorrect letter-->
+<div class="alert alert-warning messageWarn alert-dismissible" role="alert">
+  <strong>Oops!</strong> Not that one, key in another letter.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<!-- bootstrap code for alert when user has lost-->
+<div class="alert alert-danger messageLose" role="alert">
+  <h4 class="alert-heading">End Game!  Better luck next time.</h4>
+  <p>Thanos got you!</p>
+  <hr>
+  <p class="mb-0">Continue with play by pressing spacebar</p>
+</div>
+
+
+
+
+
+    
 
 /* .leftbottom {
 /*     background-image: url(../images/wordguessbackgroundimage.jpg); */
