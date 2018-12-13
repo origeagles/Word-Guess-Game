@@ -19,7 +19,7 @@ document.onkeypress = function(event) {
     document.textContent = wordChosen;
     
 //This function splits the wordChosen and then replaces it with an "_"    
-    console.log(document.strlength(wordChosen) = wordLength);
+    console.log(document.wordChosenlength = wordLength);
     for (var i = 0; i < wordLength; i++) {
        var splitword = wordChosen.split("");
        console.log(splitword);
