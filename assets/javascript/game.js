@@ -25,7 +25,7 @@ document.onkeypress = function(event) {
 }
 
 // condition to match the letter typed to any of the letters of the random word
-var splitword = wordChosen.split("_");
+var splitword = wordChosen.split("");
 console.log(splitword);
 
 
