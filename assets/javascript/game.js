@@ -16,7 +16,7 @@ var wordChosen = keyWords[Math.floor(Math.random() * keyWords.length < 25)];
 // This function logs when the user presses a letter//
 document.onkeypress = function(event) {
     console.log(var userGuess = event.key);
-    document.textContent = wordChosen;
+    console.log(document.textContent = wordChosen);
     
 //This function splits the wordChosen and then replaces it with an "_"    
     console.log(document.wordChosenlength = wordLength);
