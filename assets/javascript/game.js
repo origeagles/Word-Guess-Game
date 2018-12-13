@@ -23,10 +23,27 @@ document.onkeypress = function(event) {
     for (var i = 0; i < wordLength; i++) {
        var splitword = wordChosen.split("");
        console.log(splitword);
+ 
+ // condition to match the letter typed to any of the letters of the random word
+       
+        if (userGuess === splitword) {
+            wins++;
+            message = messageWin;
+           } else if (userGuess != splitword) {
+            message = messageWarn;
+           } else {
+            lose++;
+            message = messageLose;
+           }   
+            
+            
+        
+            
+
     }       
 }
 
-// condition to match the letter typed to any of the letters of the random word
+
 
 
 
