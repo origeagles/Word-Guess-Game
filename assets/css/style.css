@@ -11,8 +11,8 @@ body {
 }
 
 #jumboHeader {
-    max-height: 200px;
-    min-height: 300px;
+    max-height: 150px;
+    min-height: 50px;
     
 }
 
