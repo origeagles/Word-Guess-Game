@@ -9,7 +9,7 @@ var losses = 0
 var guesses = 7
 
 // function chooses random work for the game from the table.//
-var wordChosen = keyWords[Math.floor(Math.random() * keyWords.length - 1)];
+var wordChosen = keyWords[Math.floor(Math.random() * keyWords.length < 25)];
     console.log(wordChosen);
     
 
