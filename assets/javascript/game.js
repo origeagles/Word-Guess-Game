@@ -19,7 +19,7 @@ document.onkeypress = function(event) {
     document.textContent = wordChosen;
     
 //This function splits and wordChosen and the replaces it with an "_"    
-    console.log(document.stringlength(wordChosen) = wordLength);
+    console.log(document.strlength(wordChosen) = wordLength);
     for (var i = 0; i < wordLength; i++) {
     }       
 }
