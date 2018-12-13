@@ -24,7 +24,7 @@ document.onkeypress = function(event) {
        var splitword = wordChosen.split("");
        console.log(splitword);
  
- // condition to match the letter typed to any of the letters of the random word
+ // condition to match the letter typed to any of the letters of the random word & trigger alert based on conditions
        
         if (userGuess === splitword) {
             wins++;
