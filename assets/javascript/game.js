@@ -18,14 +18,15 @@ document.onkeypress = function(event) {
     console.log(document.userGuess = event.key);
     document.textContent = wordChosen;
     
-//This function splits and wordChosen and the replaces it with an "_"    
+//This function splits the wordChosen and then replaces it with an "_"    
     console.log(document.strlength(wordChosen) = wordLength);
     for (var i = 0; i < wordLength; i++) {
+       var splitword = wordChosen.split("");
+       console.log(splitword);
     }       
 }
 
 // condition to match the letter typed to any of the letters of the random word
-var splitword = wordChosen.split("");
-console.log(splitword);
+
 
 
