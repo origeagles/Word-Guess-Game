@@ -47,3 +47,8 @@ document.onkeypress = function(event) {
 
 
 
+// restart game after win/lose result achieved
+
+location.reload();
+
+
