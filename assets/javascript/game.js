@@ -30,6 +30,9 @@ document.onkeypress = function(event) {
         if (userGuess === splitword) {
             wins++;
             message = messageWin;
+            for(i=0; i<this.charCode(i);){
+                splitword.push("_");
+            }
            } else if (userGuess != splitword) {
             message = messageWarn;
            } else {
@@ -38,11 +41,11 @@ document.onkeypress = function(event) {
            }   
             
             
-        
+    //missing a few lines of code here to put it all together    
             
 
     }       
-}
+
 
 
 
@@ -50,6 +53,7 @@ document.onkeypress = function(event) {
 
 // restart game after win/lose result achieved
 
+
 location.reload();
 
-
+}
